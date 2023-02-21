@@ -2,6 +2,7 @@
 /**
  * main- output lowercase alphabet
  * Always return (0)
+ *
  */
 void print_alphabet(void)
 {
@@ -9,10 +10,12 @@ void print_alphabet(void)
 
 	y = 'a';
 
-	while (y < 'z')
+	while (y <= 'z')
 	{
 		_putchar(y);
+		y++;
 	}
 
-	return (0);
+	_putchar('\n');
+
 }
