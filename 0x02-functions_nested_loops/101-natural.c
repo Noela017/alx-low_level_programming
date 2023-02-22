@@ -13,10 +13,10 @@ int main(void)
 
 	n = 0;
 	sum = 0;
-	x = n % 3;
-	p = n % 5;
 	while (n < 1024)
 	{
+		x = n % 3;
+		p = n % 5;
 	if (x == 0 || p == 0)
 	{
 		sum = sum + n;
