@@ -16,8 +16,10 @@ int main(void)
 	b = 2;
 	printf("%lu", a);
 	printf(",");
+	printf(" ");
 	printf("%lu", b);
 	printf(",");
+	printf(" ");
 	while (count <= 50)
 	{
 		sum = a + b;
@@ -32,6 +34,7 @@ int main(void)
 		else
 		{
 			printf(",");
+			print(" ");
 		}
 	count++;
 	}
