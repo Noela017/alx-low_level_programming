@@ -15,10 +15,9 @@ int main(void)
 	sum = 0;
 	x = n % 3;
 	p = n % 5;
-
 	while (n < 1024)
 	{
-	if (x == 0 && p == 0)
+	if (x == 0 || p == 0)
 	{
 		sum = sum + n;
 	}
