@@ -20,14 +20,14 @@ int main(void)
 	printf("%lu", b);
 	printf(",");
 	printf(" ");
-	while (count <= 50)
+	while (count <= 49)
 	{
 		sum = a + b;
 		printf("%lu", sum);
 		a = b;
 		b = sum;
 
-		if (count == 50)
+		if (count == 49)
 		{
 			printf("\n");
 		}
