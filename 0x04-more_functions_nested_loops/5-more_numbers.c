@@ -9,13 +9,12 @@ void more_numbers(void)
 	int c;
 
 	c = 0;
-	while (c < 11)
+	for (c = 0; c <= 10; c++)
 	{
 		for (a = 0; a < 15; a++)
 		{
 			_putchar(a + '0');
 		}
-	c++;
 	_putchar('\n');
 	}
 }
