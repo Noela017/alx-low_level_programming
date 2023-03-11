@@ -6,7 +6,7 @@
  * @argv: array
  * Return: name of programme
  */
-void progname(int argc, char *argv[])
+void progname(int argc, char **argv[])
 {
 	printf("%s", argv[argc - 1]);
 	printf("\n");
