@@ -1,13 +1,14 @@
 #include <stdio.h>
-#include "main.h"
+
 /**
- * progname - programme to output its name
- * @argc: num of command line arg
- * @argv: array
- * Return: 0 if success
- */
-void progname(char *argv[])
+* main - prints the name of a program
+* @argc: array size
+* @argv: array containing elements
+*
+* Return: 0 on success
+*/
+int main(int argc, char **argv)
 {
-	int a = 0;
-	printf("%s\n", argv[a]);
+	printf("%s\n", argv[argc - 1]);
+	return (0);
 }
