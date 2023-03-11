@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * progname - programme to output its name
  * @argc: num of command line arg
